@@ -1,0 +1,44 @@
+# Environment Variables & Secrets
+.env
+*.env
+!.env.example
+
+# Local Scratch & Temporary Files
+scratch/
+
+# Backend (Maven & Database)
+backend/target/
+backend/data/
+**/target/
+*.class
+*.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/dists/
+backend/.mvn/wrapper/dists/
+*.war
+*.mv.db
+*.trace.db
+
+# Frontend (Node & Build)
+frontend/node_modules/
+frontend/dist/
+**/node_modules/
+**/dist/
+dist-ssr/
+*.local
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor & System Files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
